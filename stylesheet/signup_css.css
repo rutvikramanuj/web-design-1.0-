@@ -1,0 +1,175 @@
+body{
+    padding:0;
+    
+}
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    text-align:center;
+}
+#signupH1{
+    padding:0;
+}
+ul{
+    list-style:none;
+}
+
+.footer li{
+    padding:5px;
+}
+
+.footer{
+/* background-color:#ffe4b3; */
+}
+
+i{
+ padding:5px;
+}
+#copyright{
+    /* border:1px solid red; */
+
+    margin:0;
+}
+.col-md-8{
+padding:0;
+    /* border:1px solid red; */
+  background-color:#f7f7f7;
+  margin-top:-20px;
+}
+#col-md-id{
+           
+}
+#footer-row{
+    margin:0;
+
+}
+.row{
+    /* border:1px solid yellow; */
+    
+}
+#main-row{
+    /* border:1px solid red; */
+    
+}
+#login_col{
+    border:1px solid black;
+    
+}
+.col-md-9{
+    margin-left:12%;
+    padding-top:40%;
+    padding-bottom: 5px;
+    /* background-color:#ffe9b3; */
+}
+.col-md{
+   
+        margin:0px;  
+}
+.btn-primary{
+    color:white;
+    text-decoration:none;
+    width:100px;
+    
+}
+#btn-signin{
+    margin-bottom:10px;
+}
+form{
+    padding:100px;
+}
+#signIn-button{
+   
+}
+
+@media(max-width:700px){
+    .col-md-4 .col-md-9 {
+        display:none;
+    }
+    #clipart{
+        display:none;
+    }
+}
+
+
+/* =================================================MODIFY=================================================== */
+
+#inputGroup{
+    
+    
+    padding:5px;
+    margin:5px;
+    height:30px;
+    width:120px;
+    border-bottom:1px solid black;
+}
+#inputGroupRemove{
+    padding:5px;
+    margin:5px;
+    height:30px;
+    width:200px;
+    border-bottom:1px solid black;
+
+}
+option{
+    text-align:center;
+
+}
+
+
+/* =========================================ABOUT===================================== */
+#div_for_ADVISS{
+    background-image:url("E:\Study\ADVISS\img\background.jpg");
+    background-color: #f2f2f2;
+    
+}
+#div_for_DEV{
+   /* background-color: #d9d9d9;  */
+    background-image:url("E:\Study\ADVISS\img\avipatel.png");
+    
+   
+}
+.advissSpan{
+    font-size:25px;
+}
+#adviss-row{
+    margin-top:50px;
+}
+#dev-row{
+    margin-top:100px;
+}
+.devlopers{
+    padding:10px;
+        
+}
+.devImg{
+    
+    text-align:center;
+    margin:20px;
+}
+.hr{
+    
+    
+   height:1px;
+   
+   text-align:center;
+   border-width:0;
+   background-color:gray;
+}
+.intro{
+    text-align:center;
+    padding:5px 30px;
+}
+.introLine{
+    text-align:center;
+    padding-bottom:3px;
+}
+/* ===================================================contact============================================== */
+#contactFooter{
+     position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+  
+}

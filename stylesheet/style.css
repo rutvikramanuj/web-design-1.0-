@@ -1,0 +1,46 @@
+.dropdown-menu ul li a{
+    padding:0;
+     
+}
+#navBar{
+  
+  margin-bottom:0px;
+}
+#d-menu{
+   
+padding:0;
+}
+.d-item{
+
+}
+.dropdown-ul{
+    text-align:center;
+    padding-left:0px;
+    background-color:black;
+   list-style-type:none;
+}
+
+.dropdown-item{
+   
+   padding:0px;
+    font-size:15px;
+   
+    
+}
+.dropdown-Button{
+     outline:none;
+      margin: 10px;
+    border: none;
+    color: #d9d9d9;
+    background-color:black;
+      width:150px;
+    height:30px;
+     opacity:1.0;
+    transition:opacity 0.6s ease-in-out;
+    
+}
+.dropdown-Button:hover{
+opacity:0.7;
+   
+   cursor:pointer ;
+}

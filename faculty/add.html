@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- Bootstrap CSS -->
+    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="F:\Website\ADVISS\stylesheet\signup_css.css">
+    <link rel="stylesheet" type="text/css" href="F:\Website\ADVISS\stylesheet\style.css">
+    
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+      <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <title>Faculty</title>
+  </head>
+  <body>
+ <!-- ====================================NAVBAR=========================================   -->
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+  <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="F:\Website\ADVISS\index.html">ADVISS</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+          <li ><a href="F:\Website\ADVISS\index.html">Home</a></li>
+        <li>
+     
+            <a class=" dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"href="#">
+                Profile
+            </a>
+            
+                <div class="dropdown-menu" id="d-menu" aria-labelledby="dropdownMenu1">
+                        <ul class="dropdown-ul">
+                            <li class="dropdown-item"><a href="F:\Website\ADVISS\profile\your-profile.html"><button class="dropdown-Button" >Your Profile</button></a></li>
+                            <li class="dropdown-item"><a href="F:\Website\ADVISS\profile\edit-profile.html"><button class="dropdown-Button" >Edit Profile</button></a></li>
+                        </ul>
+                </div>
+       </li>
+
+
+
+
+        <li>
+         <a class=" dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"href="#">
+            Student
+         </a>
+          
+            <div class="dropdown-menu" id="d-menu" aria-labelledby="dropdownMenu1">
+                    <ul class="dropdown-ul">
+                        <li class="dropdown-item"><a href="F:\Website\ADVISS\student\add.html"><button class="dropdown-Button" >Add Details</button></a></li>
+                        <li class="dropdown-item"><a href="F:\Website\ADVISS\modify.html"><button class="dropdown-Button" >Modify</button></a></li>
+                        <li class="dropdown-item"><a href="F:\Website\ADVISS\student\remove.html"><button class="dropdown-Button" >Remove</button></a></li>
+                    </ul>
+            </div>
+            
+        </li>
+        <li class="active">
+         <a class=" dropdown-toggle " id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"href="#">
+            Faculty
+         </a>
+          
+            <div class="dropdown-menu" id="d-menu" aria-labelledby="dropdownMenu1">
+                    <ul class="dropdown-ul">
+                       <li class="dropdown-item"><a href="F:\Website\ADVISS\faculty\add.html"><button class="dropdown-Button" >Add Details</button></a></li>
+                        <li class="dropdown-item"><a href="F:\Website\ADVISS\faculty\modify.html"><button class="dropdown-Button" >Modify</button></a></li>
+                        <li class="dropdown-item"><a href="F:\Website\ADVISS\faculty\remove.html"><button class="dropdown-Button" >Remove</button></a></li>
+                     </ul>
+            </div>
+        </li>
+        <li><a href="F:\Website\ADVISS\about.html">About</a></li>
+        <li><a href="F:\Website\ADVISS\contact-us.html">Contact Us</a></li>
+      </ul>
+
+<ul class="nav navbar-nav navbar-right">
+        <li><a href="F:\Website\ADVISS\sign_up.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="F:\Website\ADVISS\login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+</ul>
+   </div>
+ </div>
+  </nav>
+
+
+
+
+  
+  <!-- ====================================LEFT=====CONTAINER====================================   -->
+    
+           
+  <!-- ====================================RIGHT=====CONTAINER====================================   -->
+  <div class="container-fluid">
+     <div class="row">
+        <div class="col-md-4 col-md-offset-4 " id="col-md-id">
+                        <form>
+                        <div class="form-row">
+                         <h1>Add Faculty Details</h1></br>
+                        
+                            <div class="form-group col-md">    
+                             <label for="name">Name</label> 
+                            <input type="name" class="form-control" id="name" placeholder="Enter your School Code">
+                           </div>
+                                                
+                         
+                          <div class="form-group col-md"> 
+                            <label for="address">Address</label>
+                            <input type="name" class="form-control" id="address" placeholder="create your username">           
+                          </div>
+
+                           <div class="form-group col-md">    
+                            <label for="cont-no">Contact No.</label>
+                            <input type="tel" class="form-control" id="cont-no" placeholder="Enter your Contact Number">
+                          </div>
+                         
+
+
+                          <div class="form-group col-md">    
+                              <label for="id">ID</label>
+                              <input type="name" class="form-control" id="id" placeholder="Enter your ID">
+                         </div>
+                         
+                          <div class="form-group col-md">    
+                              <label for="email">E-mail</label>
+                              <input type="name" class="form-control" id="email" placeholder="Enter your E-mail">
+                         </div>
+                          
+                          <div class="form-group col-md">
+                          <a href="#">forget password?</a>
+                          </div>
+                        
+                        <div class="form-check col-md-4 col-md-offset-4" id="signIn-button">
+                              </br>
+                             <a href="F:\Website\ADVISS\faculty\OTP.html"><button type="button" class="btn btn-primary">Next</button></a>
+                              </div>
+                          
+                          </form>
+                          
+        </div>
+     </div>
+  </div>
+       
+  </body>
+  </html>
